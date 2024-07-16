@@ -1,0 +1,318 @@
+* {
+    padding: 0%; margin: 0%; text-decoration: none; list-style: none; box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cambria Math';
+}
+
+/* Beranda */
+/* Navbar */
+nav {
+    position: fixed; top: 0%; background-color: white; border-bottom: 2px solid black;
+}
+section ul {
+    float: right;
+}
+
+section ul li {
+    display: inline-block; text-align: center;
+}
+
+section ul li a {
+    color: white; font-family: 17px; padding: 7px 35%;
+    border-bottom: 1px solid grey;
+}
+
+a:hover {
+    transition: .5s; color: black;
+}
+
+.checkbtn {
+    font-size: 18px; color: rgb(0, 100, 0); float: right; margin-right: 20px; cursor: pointer;
+    display: none; padding: 10px;
+}
+
+#check {
+    display: none;
+}
+/* // */
+/* // */
+
+@media (min-width: 370px) {
+    /* Beranda */
+    /* Navbar */
+    main {
+        width: 20%; display: flex; justify-content: center; align-items: center;
+        padding: 5px;
+    }
+    
+    aside {
+        width: 60%; color: rgb(0, 100, 0); display: flex; align-items: center;
+    }
+
+    aside p {
+        margin-left: -15px;
+    }
+
+    section {
+        width: 20%;
+    }
+
+    section ul li a {
+        color: black; font-size: 16px; display: block;
+    }
+
+    section ul {
+        position: fixed; width: 70%; height: 100vh; background-color: rgb(240, 240, 240); left: -100%; transition: all .5s;
+        margin-right: 60px;
+    }
+
+    section ul h2 {
+        font-size: 20px; margin-top: 17px;
+    }
+    
+    section ul h3 {
+        margin-left: 20px; color: rgb(0, 100, 0); font-size: 10px; font-weight: 500;
+    }
+
+    section ul p {
+        width: 70%; padding: 10px 10px; color: rgb(0, 100, 0); position: fixed; bottom: 40px;
+        font-size: 11px; text-align: center;
+    }
+
+    section ul li {
+        display: block;
+    }
+
+    section ul img {
+        width: 15%; display: flex; justify-content: center; align-items: center;
+        padding: 5px; margin-left: 20px; margin-top: 5px;
+    }
+
+    section ul li a {
+        font-size: 15px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+    /* // */
+
+    /* Garis */
+    .garis {
+        border-bottom: 2px solid black;
+    }
+    /* // */
+
+    /* Banner */
+    .banner {
+        width: 90% ;text-align: center; margin-top: 60px; margin-left: 20px;
+    }
+
+    .banner img {
+        width: 100%; border-radius: 5px;
+    }
+    /* // */
+
+    /* Profil */
+    .profil {
+        width: 90%; margin-left: 20px; margin-top: 20px; background-color: rgb(240, 240, 240);
+        color: black; font-size: 15px; border-radius: 5px;
+    }
+
+    .logo {
+        text-align: center; border-bottom: 1px solid rgb(170, 170, 170);
+    }
+
+    .logo h1 {
+        font-size: 18px;
+    }
+
+    .logo img {
+        margin-top: 10px; margin-bottom: 5px;
+    }
+    
+    .nama1 {
+        width: 36%; line-height: 1.5; padding: 10px;
+    }
+    .nama2 {
+        width: 4%; line-height: 1.5; padding: 10px;
+    }
+    .nama3 {
+        width: 58%; line-height: 1.5; padding: 10px;
+    }
+    /* // */
+
+    /* Konten */
+    .konten {
+        width: 90%; margin-left: 20px; background-color: rgb(240, 240, 240); padding: 10px;
+        border-radius: 5px;
+    }
+
+    .konten h1 {
+        font-size: 18px; border-bottom: 2px solid black; padding: 5px 0px;
+    }
+
+    .konten h2 {
+        font-size: 18px;
+    }
+
+    .konten p {
+        text-align: justify; line-height: 1.5; font-size: 15px; padding: 20px 0px;
+    }
+
+    .konten .visimisi h2 {
+        text-align: center;
+    }
+
+    .konten .visimisi p {
+        margin-top: -20px;
+    }
+
+    .konten .program h2 {
+        text-align: center;
+    }
+
+    .konten .program p {
+        margin-top: -20px;
+    }
+
+    .konten img {
+        width: 100%;
+    }
+
+    /* Symbol */
+    .symbol {
+        text-align: center;
+    }
+
+    .symbol h1 {
+        font-size: 18px;
+    }
+
+    /* Btn-Back */
+    .btn-back {
+        text-align: center; background-color:  rgb(0, 100, 0);
+        border-radius: 50px; font-size: 10px; margin: 0px 130px; text-align: center;
+    }
+
+    .btn-back a {
+        color: white; display: block; border-radius: 50px; padding: 10px;
+    }
+    /* // */
+
+    /* Footer */
+    footer {
+        width: 100%; padding: 10px 10px; color: black;
+        font-size: 13px; text-align: center;
+    }
+    /* // */
+    /* // */
+
+    /* Dokumen */
+    .dokumen {
+        width: 90%; margin-left: 20px; margin-top: 20px; text-align: center;
+    }
+
+    .dokumen h1 {
+        font-size: 18px;
+    }
+
+    .dokumen ul li {
+        margin-top: 10px;
+    }
+
+    .dokumen ul li a {
+        width: 90%; margin-left: 20px; color: white; text-decoration: none;
+        padding: 10px 15px; display: block; border-radius: 20px; font-size: 15px;
+        background-color: rgb(0, 100, 0);
+    }
+    /* // */
+    /* // */
+
+    /* Galleri */
+    .galeri{
+        text-align: center; margin-top: 20px; width: 90%; margin-left: 20px;
+    }
+
+    .galeri h1 {
+        width: 90%; margin-left: 20px; font-size: 18px;
+    }
+
+    .galeri ul li {
+        margin-top: 10px;
+    }
+
+    .galeri ul li a {
+        width: 90%; margin-left: 20px; color: white; text-decoration: none;
+        padding: 10px 15px; display: block; border-radius: 20px; font-size: 15px;
+        background-color: rgb(0, 100, 0);
+    }
+    /* // */
+    /* // */
+
+    /* AD / ART */
+    .adart {
+        width: 90%; margin-left: 20px; margin-top: 70px; background-color: rgb(240, 240, 240);
+        border-radius: 5px; text-align: center; padding: 10px;
+    }
+
+    .adart1 {
+        width: 90%; margin-left: 20px; margin-top: 20px; background-color: rgb(240, 240, 240);
+        border-radius: 5px; text-align: center; padding: 10px;
+    }
+
+    .adart h1 {
+        font-size: 15px; line-height: 1.5;
+    }
+
+    .adart1 h1 {
+        font-size: 15px; line-height: 1.5;
+    }
+
+    .adart1 p {
+        text-align: justify; font-size: 14px; line-height: 1.5;
+    }
+
+    .indent {
+       width: 93%; margin-left: 23px; text-align: justify;
+    }
+
+    .italic {
+        color: rgb(0, 100, 0); font-size: 11px;
+    }
+    /* // */
+    /* // */
+
+    /* Kontak */
+    .kontak {
+        margin-top: 60px; width: 90%; margin-left: 20px; 
+    }
+
+    .kontak h1 {
+        text-align: center; font-size: 18px;
+    }
+
+    .kontak h2 {
+        font-size: 16px;
+    }
+
+    .kontak p {
+        font-size: 15px; text-align: justify;
+    }
+
+    .kontak .home-sci {
+        font-size: 22px; margin-top: 10px; margin-left: -10px;
+    }
+
+    .kontak .home-sci a {
+        color: black; padding: 5px;
+    }
+    /* // */
+    /* // */
+}
